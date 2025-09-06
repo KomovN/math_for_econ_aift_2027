@@ -7,6 +7,7 @@ First order conditions
 ![FOC](https://latex.codecogs.com/svg.latex?\begin{cases}\tfrac{\partial\mathcal{L}}{\partial%20x_1}=\alpha_1x_1^{-1/\epsilon}\left(\alpha_1x_1^{\tfrac{\epsilon-1}{\epsilon}}+\alpha_2x_2^{\tfrac{\epsilon-1}{\epsilon}}\right)^{\tfrac{1}{\epsilon-1}}-\lambda%20p_1=0\\\\\tfrac{\partial\mathcal{L}}{\partial%20x_2}=\alpha_2x_2^{-1/\epsilon}\left(\alpha_1x_1^{\tfrac{\epsilon-1}{\epsilon}}+\alpha_2x_2^{\tfrac{\epsilon-1}{\epsilon}}\right)^{\tfrac{1}{\epsilon-1}}-\lambda%20p_2=0\end{cases})
 
 Коротко можно записать следующим образом 
+
 $$
  \cfrac{\partial\mathcal{L}}{\partial x} = \alpha x^{-1/\epsilon}\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}} - \lambda p = 0
 $$
