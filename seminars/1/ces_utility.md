@@ -1,27 +1,24 @@
-Consumption choice 
-$$
- \mathcal{L} = \left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{\epsilon}{\epsilon - 1}} + \lambda\left(w - px\right)
-$$
+Consumption choice
+
+![L](https://latex.codecogs.com/svg.latex?\mathcal{L}=\left(\alpha_1x_1^{\tfrac{\epsilon-1}{\epsilon}}+\alpha_2x_2^{\tfrac{\epsilon-1}{\epsilon}}\right)^{\tfrac{\epsilon}{\epsilon-1}}+\lambda(w-px))
+
 First order conditions 
-$$
- \begin{cases}
- \cfrac{\partial\mathcal{L}}{\partial x_1} = \alpha_1x_1^{-1/\epsilon}\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}} - \lambda p_1 = 0 \\
- \\
- \cfrac{\partial\mathcal{L}}{\partial x_1} = \alpha_2x_2^{-1/\epsilon}\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}} - \lambda p_2 = 0 
- \end{cases}
-$$
+
+![FOC](https://latex.codecogs.com/svg.latex?\begin{cases}\tfrac{\partial\mathcal{L}}{\partial%20x_1}=\alpha_1x_1^{-1/\epsilon}\left(\alpha_1x_1^{\tfrac{\epsilon-1}{\epsilon}}+\alpha_2x_2^{\tfrac{\epsilon-1}{\epsilon}}\right)^{\tfrac{1}{\epsilon-1}}-\lambda%20p_1=0\\\\\tfrac{\partial\mathcal{L}}{\partial%20x_2}=\alpha_2x_2^{-1/\epsilon}\left(\alpha_1x_1^{\tfrac{\epsilon-1}{\epsilon}}+\alpha_2x_2^{\tfrac{\epsilon-1}{\epsilon}}\right)^{\tfrac{1}{\epsilon-1}}-\lambda%20p_2=0\end{cases})
+
 Коротко можно записать следующим образом 
 $$
  \cfrac{\partial\mathcal{L}}{\partial x} = \alpha x^{-1/\epsilon}\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}} - \lambda p = 0
 $$
+
 Беребросим член с $\lambda$ (мы предполагаем, что он больше нуля) в правую часть и возьмем отношению двух равенст. На выходе получим
-$$
- \cfrac{\alpha_1x_1^{-1/\epsilon}}{\alpha_2x_2^{-1/\epsilon}} = \cfrac{p_1}{p_2}
-$$
+
+![Ratio](https://latex.codecogs.com/svg.latex?\tfrac{\alpha_1x_1^{-1/\epsilon}}{\alpha_2x_2^{-1/\epsilon}}=\tfrac{p_1}{p_2})
+
 Что позволяет нам вычислить относительную эластичность спроса на два товара
-$$
- \ln\left(x_1/x_2\right) = -\epsilon\left(\ln\left(\alpha_2/\alpha_1\right) + \ln\left(p_1/p_2\right)\right)
-$$
+
+![Elasticity](https://latex.codecogs.com/svg.latex?\ln\!\left(\tfrac{x_1}{x_2}\right)=-\epsilon\left(\ln\!\left(\tfrac{\alpha_2}{\alpha_1}\right)+\ln\!\left(\tfrac{p_1}{p_2}\right)\right))
+
 Вернемся к задача и найдем решение для $x$. Для этого выразим $x_2$ через $x_1$ и подставим выражение в бюджетное ограничение
 $$
  \begin{cases}
