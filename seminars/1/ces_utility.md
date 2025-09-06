@@ -18,8 +18,7 @@ $$
 $$
 \cfrac{\partial\mathcal{L}}{\partial x}
 = \alpha x^{-1/\epsilon}
-\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}}
-- \lambda p = 0
+\left(\alpha_1x_1^{\cfrac{\epsilon-1}{\epsilon}} + \alpha_2x_2^{\cfrac{\epsilon-1}{\epsilon}}\right)^{\cfrac{1}{\epsilon - 1}} - \lambda p = 0
 $$
 
 Переносим член с $\lambda$ вправо (при $\lambda>0$) и берём отношение двух равенств. Получаем:
